@@ -9,6 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "main_magic": "npx node-sass -w scss/ryuutama_main.scss css/ryuutama_main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

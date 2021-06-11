@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+body {
+  background-color: rgba(146, 230, 167, 0.25);
+}
+
+.main_title {
+  font-family: "Marcellus", serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: red;
+}
+
+.outer_corner {
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  background-color: red;
+  color: black;
+  &_chapter {
+    font-family: "Fredoka One", cursive;
+    font-size: 32px;
+    //width: 100px;
+    align-self: center;
+    //transform: rotate(-90deg);
+  }
+}
